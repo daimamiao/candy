@@ -101,6 +101,7 @@
 @mixin make-grid-columns($columns: $grid-columns, $gutters: $grid-gutter-widths, $breakpoints: $grid-breakpoints) {
     // Common properties for all breakpoints
     %grid-column {
+        float: left;
         position: relative;
         width: 100%;
         min-height: 1px; // Prevent columns from collapsing when empty
